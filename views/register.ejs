@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+
+<div class="main">
+
+<div class="register">
+  
+  <h1>Register</h1>
+</div>
+
+
+
+          <!-- Makes POST request to /register route -->
+
+          <form action="/register" method="POST">
+            <div class="form">
+              <label for="email">Email</label>
+              <input type="email_address"name="email_address" required>
+            </div>
+            <div class="form">
+              <label for="password">Password</label>
+              <input type="password" name="password" required>
+            </div>
+            <button class="btn" type="submit">Register</button>
+          </form>
+
+
+          <div class="flex btn-block border-an">
+            <div class="clr">
+              <div class=" i">
+                <img class="g" src="/images/g.png" alt=""></div>
+                <a class="btnn blue-clr" href="/auth/google" >
+                  Sign Up with Google
+                </a>
+            </div>
+          </div>
+
+
+</div>
+<%- include('partials/header') %>
