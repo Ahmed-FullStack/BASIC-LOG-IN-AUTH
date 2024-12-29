@@ -20,6 +20,7 @@
     "mongoose": "^6.2.8",
     "mongoose-encryption": "^2.1.2",
     "mongoose-findorcreate": "^3.0.0",
+    "npm-check-updates": "^12.5.7",
     "passport": "^0.5.2",
     "passport-google-oauth2": "^0.2.0",
     "passport-google-oauth20": "^2.0.0",

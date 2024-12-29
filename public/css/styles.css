@@ -38,6 +38,14 @@ body{
   user-select: text;
 }
 
+.secrets-message{
+  font-size: 1.4rem;
+  margin: 0 0 20px;
+  user-select: text;
+}
+.secrets-message:last-child{
+  margin-bottom: 40px;
+}
 
 .btn{
   padding: 15px 28px;
@@ -204,4 +212,12 @@ label{
 .m{
   padding: 13px 15px;
   background-color: rgba(170, 210, 248, 0.342);
+  width: 300px;
+  overflow-wrap: break-word;
+}
+
+.d{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
